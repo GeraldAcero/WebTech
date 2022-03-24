@@ -3,9 +3,7 @@
 	font-family: monospace;
 
 }
-*:focus {
-    outline: 0;
-}
+
 body{
 
 	background: #FFF8F3;
@@ -86,41 +84,16 @@ table tr:hover{
 	-moz-box-shadow: 2px 12px 28px -13px rgba(0,0,0,0.75);
 }
 
-img{
-	margin-right: 20px;
-	padding: 10px;
-	width: 40px;
-	height: 40px;
-	margin-left: 20px;
-	margin-top: 55px;
-}
-
-img:hover{
-	background-color: whitesmoke;
-	border-radius: 50%;
-	box-shadow: 7px 8px 28px -13px rgba(0,0,0,0.75);
-	-webkit-box-shadow: 7px 8px 28px -13px rgba(0,0,0,0.75);
-	-moz-box-shadow: 7px 8px 28px -13px rgba(0,0,0,0.75);
-}
-
-img:focus {
-    outline: none;
-}
-	
 
 @media only screen and (max-width: 800px) {
-	img{
-		display: none;
-	}
+
 	th, table{ 
 		font-size: 20px;
 	
 	}
 }
 @media only screen and (max-width: 1000px) {
-	img{
-		display: none;
-	}
+
 	th, table{ 
 		font-size: 13px;
 	
